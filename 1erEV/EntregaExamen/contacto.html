@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/estilos.css">
+    <title>Contacto</title>
 </head>
 
 <header>
-    <title> </title>
+    <h1>Formulario de Contacto</h1>
+    <h2>Ponte en contacto conmigo</h2>
 </header>
 
 <body>
 
+<form method="GET" action="contacto.html">
+
+    <label>Nombre:</label>
+    <input type="text" name="nombre"><br><br>
+
+    <label>Correo Electrónico:</label>
+    <input type="email" name="correo"><br><br>
+
+    <label>Teléfono:</label>
+    <input type="text" name="telefono"><br><br>
+
+    <label>Asunto:</label>
+    <input type="text" name="asunto"><br><br>
+
+    <label>Mensaje:</label><br>
+    <textarea name="mensaje" rows="5" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+
+</form>
+
 </body>
 
 <footer>
-
+    <h4 id="seccion-menu"> Menú de navegación </h4>
+    <ol>
+        <li> <a href="index.html"> Página principal </a></li>
+        <li> <a href="about.html"> Sobre el autor </a></li>
+        <li> <a href="galeria.html"> Galería </a></li>
+    </ol>
 </footer>
 
 </html>
