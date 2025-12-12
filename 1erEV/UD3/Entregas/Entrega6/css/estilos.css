@@ -1,0 +1,28 @@
+body #principal
+{
+    display:inline-flex;
+    list-style:none ;
+    background-color: rgba(158, 155, 152, 0.514);
+}
+body #desplegable
+{
+    display: none;
+}
+ul li
+{
+    padding: 1lh;
+    color: rgb(23, 163, 206);
+    font-size;
+    border-right: 1em;
+    border-right: solid;
+}
+ul li:hover
+{
+    color: rgb(14, 87, 109);
+    font-weight: ;
+    font-style: italic;
+}
+ul li:nth-child(4):hover
+{
+   display: ;
+}
