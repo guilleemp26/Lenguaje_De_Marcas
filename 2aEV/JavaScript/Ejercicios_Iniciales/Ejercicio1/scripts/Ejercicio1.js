@@ -70,5 +70,26 @@ let persona =
 {
     nombre: "Gerardo",
     edad: 19,
-    ciudad: "Penesilvania"
+    ciudad: "Asturias"
 };
+
+console.log("Nombre: " + persona.nombre)
+console.log("Edad: " + persona.edad)
+console.log("Ciudad: " + persona.ciudad)
+
+//Actividad 10
+let nombreSaludar = prompt("Introduce tu nombre: ", "")
+
+function saludar(nombre)
+{
+    console.log("Hola " + nombre + "!!!!")
+}
+
+if (nombreSaludar !== "")
+{
+    saludar(nombreSaludar)
+}
+else
+{
+    saludar("Nombre desconocido")
+}

@@ -1,0 +1,48 @@
+h1{
+    color: rgb(44, 124, 100);
+}
+strong{
+    color: red;
+}
+span.destacado{
+    color: rgb(236, 183, 9);
+}
+#subtitulo{
+    color: blue;
+}
+p a{
+    color: red;
+}
+p a em{
+    color: blue;
+}
+table caption{
+    color: blue;
+}
+table thead th{
+    color: rgb(236, 183, 9);
+}
+tfoot tr th{
+    color: red;
+}
+tbody tr th{
+    color: red
+}
+tbody th.especial{
+    color: rgb(236, 183, 9);
+}
+tbody tr td{
+    color: green;
+}
+tr td strong{
+    color: rgb(236, 183, 9);
+}
+#adicional p{
+    color: rgb(126, 142, 70);
+}
+p #especial{
+    color: rgb(242, 93, 205)
+}
+#adicional a{
+    color: green
+}

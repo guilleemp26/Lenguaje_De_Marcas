@@ -1,0 +1,12 @@
+div{
+    background: #e0e0e0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#anterior{
+    text-align: left;
+}
+#siguiente{
+    text-align: right;
+}
