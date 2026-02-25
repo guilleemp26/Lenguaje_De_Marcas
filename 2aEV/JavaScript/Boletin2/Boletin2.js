@@ -142,3 +142,41 @@ function cambiarFondoDefault3()
 }
 
 //Ejercicio 8
+const img1 = document.getElementById("img1");
+const img2 = document.getElementById("img2");
+const img3 = document.getElementById("img3");
+const divAumentar = document.getElementById("aumentar");
+const cerrarImagen = document.getElementById("cerrar_img");
+let imgAumentada = document.createElement("img");
+
+
+img1.addEventListener("click", aumentarTamanyo1);
+img2.addEventListener("click", aumentarTamanyo2);
+img3.addEventListener("click", aumentarTamanyo3);
+cerrarImagen.addEventListener("click", cerrarImagenAumentada);
+
+
+function aumentarTamanyo1(img)
+{
+    imgAumentada.src = img1.src;
+    imgAumentada.width = 400;
+    divAumentar.appendChild(imgAumentada);
+}
+function aumentarTamanyo2(img)
+{
+    imgAumentada.src = img2.src;
+    imgAumentada.width = 400;
+    imgAumentada.height = 400;
+    divAumentar.appendChild(imgAumentada);
+}
+function aumentarTamanyo3(img)
+{
+    imgAumentada.src = img3.src;
+    imgAumentada.width = 400;
+    divAumentar.appendChild(imgAumentada);
+}
+function cerrarImagenAumentada()
+{
+    divAumentar.removeChild(imgAumentada);
+}
+

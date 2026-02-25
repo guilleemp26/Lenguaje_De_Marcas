@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica DOM - Selección y Modificación</title>
+    <link rel="stylesheet" href="estilos_seleccion_modificacion.css">
+</head>
+<body>
+
+    <h1 id="tituloPrincipal" onclick="actividad1()">Título original</h1>
+    <button id="actividad8Parte1" onclick="actividad8Parte1()">Actividad InnerText</button>
+    <button id="actividad8Parte2" onclick="actividad8Parte2()">Actividad InnerHTML</button>
+    <p id="descripcion" onclick="actividad2()">
+        Este es un <strong>texto de ejemplo</strong> para practicar DOM.
+    </p>
+    <button id="boton_descripcion" onclick="actividad3()">Cambiar descripción</button>
+
+    <div class="caja" onclick="actividad4()">Caja 1</div>
+    <div class="caja">Caja 2</div>
+    <div class="caja importante">Caja 3</div>
+
+    <p class="parrafo">Párrafo 1</p>
+    <p class="parrafo">Párrafo 2</p>
+    <p class="parrafo">Párrafo 3</p>
+    <button id="modificar_parrafos" onclick="actividad5()">Modificar párrafos</button>
+    <ul>
+        <li>Elemento lista 1</li>
+        <li>Elemento lista 2</li>
+        <li>Elemento lista 3</li>
+        <button id="modificar_lista" onclick="actividad6()">Modificar lista</button>
+    </ul>
+
+    <h2>Subtítulo A</h2>
+    <h2>Subtítulo B</h2>
+    <button id="modificar_subtitulos" onclick="actividad7()">Modificar subtitulos</button>
+    <script src="script/scipt.js"></script>
+</body>
+</html>
