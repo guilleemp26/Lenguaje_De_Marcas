@@ -60,6 +60,12 @@ function ejercicio7()
 
 function ejercicio8()
 {
-    let aux = "https://portal.edu.gva.es/ieselgrao/";
-    
+    if(enlace.getAttribute("href") == "https://example.com")
+    {
+        enlace.setAttribute("href", "https://portal.edu.gva.es/ieselgrao/")
+    }
+    else
+    {
+        enlace.setAttribute("href", "https://example.com")
+    }
 }
