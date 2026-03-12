@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<tienda>
+
+    <producto codigo="P01">
+        <precio>120</precio>
+        <nombre>Teclado mecánico</nombre>
+        <categorias>
+            <categoria>informatica</categoria>
+        </categorias>
+    </producto>
+
+    <producto>
+        <nombre>Ratón gaming</nombre>
+        <precio>40</precio>
+        <descripcion>Ratón RGB</descripcion>
+        <categorias>
+            <categoria>informatica</categoria>
+            <categoria>gaming</categoria>
+        </categorias>
+    </producto>
+
+    <producto codigo="P01" disponible="quizas">
+        <nombre>Monitor</nombre>
+        <precio>200</precio>
+        <categorias>
+            <categoria>pantallas</categoria>
+        </categorias>
+    </producto>
+
+</tienda>

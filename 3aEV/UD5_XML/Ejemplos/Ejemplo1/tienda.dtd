@@ -1,0 +1,12 @@
+<!ELEMENT tienda (producto+)>
+
+<!ELEMENT producto (nombre, precio, descripcion?, categorias)>
+<!ATTLIST producto codigo ID #REQUIRED
+                   disponible (si|no) "si">
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ELEMENT categorias (categoria+)>
+<!ELEMENT categoria (#PCDATA)>

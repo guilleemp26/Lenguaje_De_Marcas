@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<ciudades>
+    <ciudad contintente = "Ásia">
+        <nombre>Nueva Delhi </nombre>
+        <pais>India </pais>
+    </ciudad>
+    <ciudad contintente = "Europa">
+        <nombre>Lisboa </nombre>
+        <pais>Portugal </pais>
+    </ciudad>
+    <ciudad contintente = "África">
+        <nombre>El cairo </nombre>
+        <pais>Egipto </pais>
+    </ciudad>
+
+</ciudades>
